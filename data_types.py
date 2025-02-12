@@ -79,6 +79,21 @@ print(fullname[1:-1])
 #some methods return boolean data types
 
 print(fullname.startswith('K'))
-print(fullname.endswith('a'))
+print(fullname.endswith('g'))
+
+#Boolean data type
+
+myvalue=True
+print(myvalue)
+
+x=bool(False)
+print(type(x))
+
+#Complex type 
+
+comp_value=3+4j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
 
 
