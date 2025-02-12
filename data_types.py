@@ -57,3 +57,10 @@ print(len(fullname))
 
 print(fullname.strip())
 
+#Build a menu
+title='menu'.upper()
+print(title.center(20,'*'))
+print('Cofee'.ljust(16,'.') + '$2.99'.rjust(4))
+print('Muffin'.ljust(16,'.') + '$2.99'.rjust(4))                
+print('Cake'.ljust(16,'.') + '$2.99'.rjust(4))
+
