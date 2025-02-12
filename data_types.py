@@ -50,3 +50,10 @@ print(fullname.strip())
 
 print(fullname.replace('hello','hi'))
 
+print(len(fullname))
+fullname +="                                          "
+fullname="           " + fullname
+print(len(fullname))
+
+print(fullname.strip())
+
