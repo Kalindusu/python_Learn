@@ -1,11 +1,17 @@
 import random
 import sys
+from enum import Enum
+
+class RPS(Enum):
+    Rock=1
+    paper=2
+    scissort = 3
 
 
 print('')
 playerchoice = input('Enter...\n 1 for Rock,\n2 for Paper,\n3 for Scissors:\n\n ')
 player = int(playerchoice)
-if player <1 | player > 3:
+if player <1 or player > 3:
     sys.exit("You must enter 1,2, or 3")
 
 computerchoise = random.choice("123")
