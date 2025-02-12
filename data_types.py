@@ -76,4 +76,9 @@ print(fullname[0:16:2])
 print(fullname[::-1])
 print(fullname[1:-1])
 
+#some methods return boolean data types
+
+print(fullname.startswith('K'))
+print(fullname.endswith('a'))
+
 
