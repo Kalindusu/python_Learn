@@ -16,3 +16,16 @@ last = "world"
 
 fullname=first + " " + last
 print(fullname)
+
+fullname+="!"
+print(fullname)
+
+#casting a number to a string
+
+age = 20
+age = str(age)
+print(type(age))
+
+print(age)
+
+#multiple lines
