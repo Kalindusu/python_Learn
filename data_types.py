@@ -64,3 +64,16 @@ print('Cofee'.ljust(16,'.') + '$2.99'.rjust(4))
 print('Muffin'.ljust(16,'.') + '$2.99'.rjust(4))                
 print('Cake'.ljust(16,'.') + '$2.99'.rjust(4))
 
+#string index value
+
+fullname="Kalindu Sudaraka"
+
+print(fullname[0])
+print(fullname[-1])
+print(fullname[-16])
+print(fullname[0:4])
+print(fullname[0:16:2])
+print(fullname[::-1])
+print(fullname[1:-1])
+
+
