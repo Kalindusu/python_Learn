@@ -29,3 +29,24 @@ print(type(age))
 print(age)
 
 #multiple lines
+
+multiline= '''
+This is a multiline string
+with multiple lines
+'''
+
+print(multiline)\
+
+#escaping special characters
+sentence='I\'m a programmer\nI\'m learning python\\I\'m enjoying it'
+print(sentence)
+
+#string methods
+
+print(fullname.upper())
+print(fullname.lower())
+print(fullname.title())
+print(fullname.strip())
+
+print(fullname.replace('hello','hi'))
+
