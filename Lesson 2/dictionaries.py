@@ -24,3 +24,6 @@ print(band.keys())
 
 #list all values
 print(band.values())
+
+#List of key-value pairs
+print(band.items())
