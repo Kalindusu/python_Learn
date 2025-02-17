@@ -6,6 +6,8 @@ def add_one(num):
     total = num +1
     print(total)
 
-    return add_one(total)
+    add_one(total)
 
-add_one(1)
+mynewnum = add_one(0)
+
+print(mynewnum) # Output: 10
