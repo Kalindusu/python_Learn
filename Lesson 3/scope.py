@@ -1,6 +1,12 @@
-name="Dave"
-def greeting():
+def another():
     color = "blue"
-    print("Hello", name)    
 
-greeting()  
+    def greeting(name):
+        print(color)
+        print(name)
+
+        greeting("Dave")
+
+        another()
+        
+         
