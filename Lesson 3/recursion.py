@@ -11,3 +11,5 @@ def add_one(num):
 mynewnum = add_one(0)
 
 print(mynewnum) # Output: 10
+
+# Compare this snippet from Lesson%203/conditionals.py:
